@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Register</title>
+</head>
+<body>
+    <form action="">
+        <div class="account">
+            <div class="account__name">
+                <label for="name">Name</label>
+                <input type="text" class="info">
+            </div>
+            <div class="account__password">
+                <label for="password">Password</label>
+                <input type="password" class="info">
+            </div>
+        </div>
+        <div class="address">
+            <label for="address">Address</label>
+            <input type="text"  placeholder="1234 Main St" class="info">
+        </div>
+        <div class="address">
+            <label for="address2">Address 2</label>
+            <input type="text" placeholder="Apartmment, studio or floor" class="info">
+        </div>
+        <div class="position">
+            <div class="position__city">
+                <label for="city">City</label>
+                <input type="text" class="info">
+            </div>
+            <div class="position__state">
+                <label for="state">State</label>
+                <select name="state" id="state" class="info">
+                    <option hidden>Choose...</option>
+                    <option value="state1">State 1</option>
+                    <option value="state2">State 2</option>
+                </select>
+            </div>
+            <div class="position__zip">
+                <label for="zip">Zip</label>
+                <input type="text" class="info">
+            </div>
+        </div>
+        <div class="check">
+            <input type="checkbox">
+            <span>Check me out</span>
+        </div>
+        <input type="submit" id="submit" value="Sign in">
+    </form>
+</body>
+</html>
