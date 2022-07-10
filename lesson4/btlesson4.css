@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+p{
+    font-size: 14px;
+}
+.address__1 {
+    float: left;
+    width: 33.33%;
+    text-align: justify;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.address__1:not(:last-child) {
+    border-right: 1px solid #2F3C3F;
+}
+#main {
+    width: 80%;
+    margin: auto;
+}
+html{
+    background-color: #EBEBEB;
+}
+.info__1,.info__2{
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.info__1{
+    width: 16.665%;
+    
+}
+.info__1 ul li:hover a{
+    margin-left: 20px;
+}
+.info__1 ul li a{
+    transition: 1s;
+    font-size: 12px;
+}
+.info__2{
+    width: 33.33%;
+}
+input,textarea{
+
+    height: 30px;
+    margin-bottom: 10px;
+    border: 0;
+}
+input:not(:last-child){
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    background-color: #EBEBEB;
+}
+textarea{
+    display: block;
+    background-color: #EBEBEB;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    line-height: 30px;
+    font-size: 14px;
+}
+.iconfb{
+    color: blue;
+    line-height: 32px;
+    margin-right: 10px;
+}
+.iconyt {
+    color: red;
+    margin: 0 10px;
+}
+.iconpt{
+    color: #FF0000;
+    margin: 0 10px;
+}
+.iconis{
+    color: #DD05A0;
+    margin: 0 10px;
+    
+}
+.icon{
+    margin-top: 20px;
+}
+#submit{
+    background-color: #646060;
+    padding: 10px 20px;
+    color: white;
+}
+.address p{
+    line-height: 30px;
+}
+.phone{
+    margin-top: 20px;
+}
+.iconp{
+    margin-right: 10px;
+}
+.phone li:hover a,.tel:hover{
+    text-decoration: underline;
+}
+h3{
+    font-weight: unset;
+}
+footer{
+    background-color: #EBEBEB;
+}
+.address__1 p:first-child,.address__2 p:first-child{
+    font-weight: bold;
+}
+.title h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.nav{
+    margin-top: 450px;
+}
+.nav li{
+    float: left;
+    text-align: center;
+    margin: 5px;
+}
+.nav li:not(:last-child)::after{
+    content:" |";
+}
+.nav div{
+    width: fit-content;
+    margin: auto;
+}
+.nav li:hover a{
+    text-decoration: underline;
+}
+img{
+    height: 53px;
+    margin-top: 30px;
+}
+.copyright{
+    width: 100%;
+    height: 100px;
+    margin-top: 500px;
+    background-color: white;
+}
+span {
+    color: #a8a8a8;
+    font-size: 13px;
+}
+b{
+    font-size: 13px;
+}
+.cpinfo {
+    width: fit-content;
+    margin: auto;
+    padding-top: 20px;
+}

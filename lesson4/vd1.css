@@ -1,0 +1,25 @@
+.div1__1, .div1__2 {
+    float: left;
+    width: 50%;
+    padding: 100px 0;
+    text-align: center;
+}
+.div2__1, .div2__2, .div2__3 {
+    float: left;
+    width: 33.33%;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.div1__1, .div2__1 {
+    background-color: #BBBBBB;
+}
+.div1__2, .div2__2 {
+    background-color: #CCCCCC;
+}
+.div2__3 {
+    background-color: #DDDDDD;
+}
+.div2{
+    margin-top: 20px;
+}
