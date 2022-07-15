@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function soChan(a,b) {
+            if (a<b) {
+                var dayso = "";
+                for (var i=a; i<=b; i++) {
+                    if (i%2==0) {
+                        dayso += i + " ";
+                    }
+                }
+                alert(dayso);
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="soChan(0,10)">Try</button>
+</body>
+</html>
