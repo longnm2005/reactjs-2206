@@ -4,7 +4,7 @@ $('#btn__submit').click(function(){
     var c=$('#nhapC').val();
     
     if (a ==0 ) {
-        $('p:first').html('a phải khác 0!');
+        $('p').html('a phải khác 0!');
     }
     else {
         const delta = b*b -4*a*c;
